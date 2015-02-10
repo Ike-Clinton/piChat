@@ -1,1 +1,9 @@
 /* CSS declarations go here */
+
+html {
+  padding: 10px;
+  font-family: "Lucida Console", Monaco, monospace;
+  background-color: #003333;
+  background-image: linear-gradient(to bottom, #000000, #002200 85%);
+  color: #00ff00;
+}

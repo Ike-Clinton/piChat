@@ -3,12 +3,40 @@
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
+    <h1>piChat</h1>
 
-  {{> hello}}
+  {{>welcome}}
+  {{>username}}
+  {{>input}}
+  {{>messages}}
 </body>
 
-<template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
+<template name="welcome">
+  <p>
+    Welcome to piChat
+  </p>
+
 </template>
+
+<template name="username">
+  Enter your name:
+    <input type="text" id="username">
+</template>
+
+<template name="input">
+  <p>Message: <input type="text" id="message"></p>
+</template>
+
+<template name="messages">
+  {{#each messages}}
+    <strong>{{name}}:</strong> {{message}}<br>
+  {{/each}}
+</template> 
+
+<!-- <template name="qrcode">
+  <div align="right">
+   <h2>QR Code </h2>
+   <img src="qrcode.png" alt="QR Code" align="right">
+   <br>
+  </div>
+</template> -->
