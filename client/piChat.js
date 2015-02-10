@@ -1,4 +1,5 @@
 /**
+* DEPENDENCIES: mizzao:timesync
 * Templates
 */
 Template.messages.helpers({
