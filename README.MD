@@ -31,8 +31,6 @@ meteor -p 80
 Where the -p flag is the port of your choice (default is 3000). Just connect to your IP (or localhost)
 and the app should be up and running waiting for you.
 
-Notes About MongoDB and Usage
---------
-
 License
 --------
+This project is hosted under the MIT license.
